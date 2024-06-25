@@ -1,7 +1,5 @@
 #include "solid/solid.hpp"
-#include "factory/point_factory.hpp"
-#include "factory/abstract_factory/drink_factory.hpp"
-
+#include "factory/factory.h"
 #include "prototype/contacts.hpp"
 
 void solid_opr() {
