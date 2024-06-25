@@ -2,6 +2,7 @@
 #include "solid/open_close.hpp"
 #include "solid/liskov.hpp"
 #include "solid/interface.hpp"
+#include "solid/dependencies.hpp"
 
 int main() {
 
@@ -9,8 +10,8 @@ int main() {
     //solid::single_responsibility::main();
     //solid::open_close::main();
     //solid::liskov::main();
-    solid::interface::main();
-
+    //solid::interface::main();
+    solid::dependencies::main();
 
     return 0;
 }
