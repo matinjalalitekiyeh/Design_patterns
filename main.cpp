@@ -1,17 +1,16 @@
-#include "solid/single_responsibility.hpp"
-#include "solid/open_close.hpp"
-#include "solid/liskov.hpp"
-#include "solid/interface.hpp"
-#include "solid/dependencies.hpp"
+#include "solid/solid.hpp"
+
+void solid_opr() {
+    solid::single_responsibility::main();
+    solid::open_close::main();
+    solid::liskov::main();
+    solid::interface::main();
+    solid::dependencies::main();
+}
 
 int main() {
-
     //solid
-    //solid::single_responsibility::main();
-    //solid::open_close::main();
-    //solid::liskov::main();
-    //solid::interface::main();
-    solid::dependencies::main();
+    //solid_opr();
 
     return 0;
 }
