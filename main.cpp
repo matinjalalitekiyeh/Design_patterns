@@ -1,5 +1,6 @@
 #include "solid/solid.hpp"
 #include "factory/point_factory.hpp"
+#include "factory/abstract_factory/drink_factory.hpp"
 
 void solid_opr() {
     solid::single_responsibility::main();
@@ -14,7 +15,8 @@ int main() {
     //solid_opr();
 
     //factory
-    factory::point_factory::main();
+    //factory::point_factory::main();
+    factory::drink_factory::main();
 
     return 0;
 }
